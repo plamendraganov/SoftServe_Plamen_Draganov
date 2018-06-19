@@ -1,0 +1,151 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.three-main-news {
+    background: #fff;
+    margin-bottom: 100px;
+}
+
+.title-three-main-news {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title-explore {
+    font-size: 2.2em;
+    color: #d08a00;
+}
+
+.column-main-news {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 500px;
+    font-size: 1em;
+}
+
+.main-news-image {
+    width: 100%;
+    height: 200px;
+}
+
+.main-news-image:hover {
+    filter: saturate(2);
+}
+
+.main-news-horizontal-line {
+    border-top: 3px dotted black;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:3000px) {
+    .main-news-image {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:2600px) {
+    .main-news-image {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:2000px) {
+    .main-news-image {
+        height: 350px;
+    }
+    .column-main-news {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:1700px) {
+    .main-news-image {
+        height: 300px;
+    }
+    .column-main-news {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .main-news-image {
+        height: 250px;
+    }
+    .column-main-news {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .main-news-image {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .column-main-news {
+        display: inline;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        font-size: 1em;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .main-news-image {
+        width: 50%;
+        float: left;
+        height: auto;
+        margin-right: 10px;
+    }
+    .main-news-horizontal-line {
+        border-top: 3px dotted black;
+        width: 48%;
+        float: right;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    main {
+        width: 100%;
+    }
+    .column-main-news {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    main {
+        width: 100%;
+    }
+    .main-news-image {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .main-news-horizontal-line {
+        border-top: 3px dotted black;
+        width: 60%;
+        float: none;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,146 @@
+footer {
+    margin-top: 30px;
+    background-color: #323232;
+    color: #fff;
+    padding: 30px;
+}
+
+.footer-col-container {
+    display: table;
+    /* Make the container element behave like a table */
+    width: 80%;
+    /* Set full-width to expand the whole page */
+    margin: auto;
+}
+
+.footer-col {
+    display: table-cell;
+    /* Make elements inside the container behave like table cells */
+    padding-left: 10px;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+}
+
+.footer-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.footer-title {
+    font-size: 1.3em;
+}
+
+.icons {
+    font-size: 1.2em;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.fa-facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.fa-twitter {
+  background-color: #1dcaff;
+  color: #fff;
+}
+
+.fa-google-plus {
+  background-color: #bb0000;
+  color: #fff;
+}
+
+.fa-youtube {
+  background-color: #bb0000;
+  color: #fff;
+}
+
+.fa-envelope {
+  background-color: #c71610;
+  color: #fff;
+}
+
+.fa-instagram {
+  background-color: #bc2a8d;
+  color: #fff;
+}
+
+.fa-pinterest {
+  background-color: #cb2027;
+  color: #fff;
+}
+
+.bulgaria-air {
+    width: 100px;
+}
+
+.footer-horizontal-line {
+    border-top: 3px solid #d08a00;
+    width: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:3000px) {
+    footer {
+        font-size: 2.3em;
+    }
+}
+
+@media screen and (max-width:2600px) {
+    footer {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width:2000px) {
+    footer {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width:1700px) {
+    footer {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    footer {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    footer {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-col {
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,287 @@
+body {
+  line-height: normal;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.three-main-news {
+    background: #fff;
+    margin-bottom: 50px;
+}
+
+.wrap-restaurants {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap-recipes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-container {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title-explore,
+.title-recipes {
+    font-size: 2.2em;
+    color: #d08a00;
+    text-align: center;
+}
+
+.column-main-news {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 500px;
+    font-size: 1em;
+}
+
+.main-news-image {
+    width: 100%;
+    height: 200px;
+}
+
+.main-news-image:hover {
+    filter: saturate(2);
+}
+
+.main-news-horizontal-line {
+    border-top: 3px dotted black;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.section-box {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.restaurants-image-container {
+    float: left;
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+}
+
+.restaurants-image {
+    width: 100%;
+}
+
+.restaurants-image:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.restaurants-text-container {
+    width: 36%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title-dish {
+    font-size: 1.4em;
+    font-weight: bold;
+    font-style: italic;
+    color: #f46465;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-left {
+    float: left;
+}
+
+.text-right {
+    float: right;
+}
+
+.image-left {
+    float: left;
+}
+
+.image-right {
+    float: right;
+}
+
+.btn-recipe {
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #d08a00;
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+@media screen and (max-width:3000px) {
+    .wrap-recipes {
+        font-size: 2.3em;
+    }
+    .main-news-image {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:2600px) {
+    .wrap-recipes {
+        font-size: 2em;
+    }
+    .main-news-image {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:2000px) {
+    .wrap-recipes {
+        font-size: 1.4em;
+    }
+    .column-main-news {
+        height: 450px;
+    }
+    .main-news-image {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:1700px) {
+    .wrap-recipes {
+        font-size: 1.3em;
+    }
+    .column-main-news {
+        height: 400px;
+    }
+    .main-news-image {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .wrap-recipes {
+        font-size: 1em;
+    }
+    .column-main-news {
+        height: 350px;
+    }
+    .main-news-image {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .main-news-image {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .restaurants-text-container {
+        font-size: 0.9em;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .column-main-news {
+        display: inline;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        font-size: 1em;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .main-news-image {
+        width: 50%;
+        float: left;
+        height: auto;
+        margin-right: 10px;
+    }
+    .main-news-horizontal-line {
+        border-top: 3px dotted black;
+        width: 48%;
+        float: right;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .container {
+        display: block;
+        margin-top: 50px;
+    }
+    .restaurantsl-image-container {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .restaurants-text-container {
+        font-size: 1em;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .btn-recipe {
+        color: #fff;
+        background-color: #d08a00;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:760px) {
+    main {
+        width: 100%;
+    }
+    .column-main-news {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    main {
+        width: 100%;
+        font-size: 0.9em;
+    }
+    .main-news-image {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .main-news-horizontal-line {
+        border-top: 3px dotted black;
+        width: 60%;
+        float: none;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .column-main-news {
+        height: 400px;
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,136 @@
+/* CSS Styles for the body of each page */
+
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+
+/* CSS Styles for the header of each page */
+
+.site-header {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header-image {
+    width: 100%;
+    height: 640px;
+}
+
+.header-image:hover {
+    filter: saturate(2);
+}
+
+
+/* CSS Styles for the navigation bar of each page */
+
+.top-navigation {
+    width: 65%;
+    height: 40px;
+    background-color: #009ABF;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 25px 200px 25px 200px;
+    box-shadow: 0 0 15px;
+    text-align: center;
+}
+
+.top-navigation ul li {
+    min-width: 70px;
+    display: inline-block;
+    padding: 10px;
+    text-align: start;
+    border-radius: 25px 200px 25px 200px;
+    -moz-border-radius: 25px 200px 25px 200px;
+    -webkit-border-radius: 25px 200px 25px 200px;
+}
+
+.top-navigation ul li:hover {
+    background-color: #d08a00;
+    color: #fff;
+}
+
+.top-navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px #000;
+    font-size: 1.3em;
+    position: relative;
+}
+
+@media screen and (max-width:3000px) {
+    .header-image {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width:2000px) {
+    .header-image {
+        height: 640px;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    .top-navigation {
+        width: 100%;
+    }
+    .site-header {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .top-navigation {
+        width: 100%;
+        height: 40px;
+        background-color: #009ABF;
+        position: fixed;
+        z-index: 9999;
+        border-radius: 0px 0px 0px 0px;
+        box-shadow: 0 0 15px;
+        text-align: center;
+    }
+    .top-navigation ul li {
+        min-width: 70px;
+        display: inline-block;
+        padding: 10px;
+        text-align: start;
+        border-radius: 0px 0px 0px 0px;
+        -moz-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+    }
+    .top-navigation ul li a {
+        color: #fff;
+        text-decoration: none;
+        text-shadow: 0px 0px 5px #000;
+        font-size: 1.3em;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .top-navigation {
+        font-size: 0.8em;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .header-image {
+        width: 100%;
+        height: 378px;
+    }
+    .top-navigation {
+        height: auto;
+        font-size: 1em;
+        position: relative;
+        z-index: 0;
+        box-shadow: 0 0 0px;
+        text-align: center;
+    }
+    .top-navigation ul li {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+}

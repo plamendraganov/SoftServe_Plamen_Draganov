@@ -1,0 +1,325 @@
+/* Create three equal columns that floats next to each other */
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -55px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.three-main-news {
+    padding-top: 15px;
+    background: #fff;
+    margin-bottom: 100px;
+}
+
+.title-three-main-news {
+    margin-left: 20px;
+}
+
+.title-explore {
+    font-size: 2.2em;
+    color: #d08a00;
+}
+
+.column-main-news {
+    float: left;
+    width: 33%;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main-news-image {
+    width: 100%;
+    height: 200px;
+}
+
+.main-news-image:hover {
+    filter: saturate(2);
+}
+
+.main-news-horizontal-line {
+    border-top: 3px dotted black;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* Section with a large image and a text block */
+
+.big-news {
+    height: 700px;
+    margin-bottom: 200px;
+}
+
+.row-big-news {
+    height: 100%;
+    background-color: #fff;
+}
+
+.column-big-news-text {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    height: 80%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+    background-color: #60b3e5;
+}
+
+.column-big-news-image {
+    filter: saturate(2);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 60%;
+    height: 700px;
+}
+
+.big-news-main-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.column-big-news-text a {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.kaliakra-subtitle {
+    font-style: italic;
+    color: #fff;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* CSS for the news with big images and texts in their angles */
+
+.container-image-text-angle {
+    position: relative;
+    margin-top: 200px;
+}
+
+.image-top-left {
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: 0;
+}
+
+.text-container {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.4em;
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.text-top-left {
+    text-align: left;
+    top: -125px;
+    left: 50px;
+    padding-bottom: 10px;
+}
+
+.text-angle-link {
+    color: #f46465;
+    text-decoration: none;
+}
+
+.discover {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.image-top-right {
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: 0;
+}
+
+.large-image {
+    width: 100%;
+    height: 700px;
+}
+
+.large-image:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.text-top-right {
+    padding-bottom: 10px;
+    top: -125px;
+    right: 50px;
+    background-color: #fff;
+}
+
+.image-bottom-left {
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: 0;
+}
+
+.text-bottom-left {
+    padding-top: 10px;
+    top: 580px;
+    left: 50px;
+    background-color: #fff;
+}
+
+.image-bottom-right {
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: 0;
+}
+
+.text-bottom-right {
+    padding-top: 10px;
+    top: 580px;
+    right: 50px;
+    background-color: #fff;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width:3000px) {
+    main {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:2600px) {
+    main {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:2000px) {
+    main {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1700px) {
+    main {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    main {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1370px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .big-news-main-text {
+        font-size: 0.9em;
+    }
+    .text-container {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .text-container {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .text-container {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .text-container {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .column-main-news,
+    .column-big-news-text,
+    .column-big-news-image {
+        width: 100%;
+    }
+    .big-news-main-text {
+        font-size: 1.2em;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:600px) {
+    .text-container {
+        width: 100%;
+        font-size: 1.4em;
+    }
+    .text-top-left,
+    .text-top-right,
+    .text-bottom-left,
+    .text-bottom-right {
+        width: 100%;
+        position: relative;
+        z-index: 0;
+        top: 0px;
+        left: 0px;
+    }
+    .column-big-news-image {
+        display: none;
+    }
+    .image-top-left,
+    .image-top-right,
+    .image-bottom-left,
+    .image-bottom-right {
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: 0;
+    }
+    .large-image {
+        height: 350px;
+    }
+}
