@@ -4,38 +4,30 @@ main {
     overflow: hidden;
 }
 
-.container {
+#wrapper {
     width: 40%;
     margin: 0 auto;
 }
 
-.title-holder {
-    padding-top: 40px;
-}
-
 form {
     background: transparent;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
-.titleRegistration {
+#titleRegistration {
     text-align: center;
     font-size: 30px;
     color: rgb(145, 5, 5);
 }
 
-.userInformation {
+#userInformation {
     border: 1px solid rgb(145, 5, 5);
-    padding-right: 10px;
-    padding-left: 10px;
+    border-bottom: none;
 }
 
 legend {
     font-weight: bold;
     font-size: 24px;
     color: rgb(145, 5, 5);
-    margin-bottom: 30px;
 }
 
 .divInformation {
@@ -77,11 +69,14 @@ legend {
     border: 1px solid grey;
 }
 
-.register-container {
+#nextStep {
+    border: 1px solid rgb(145, 5, 5);
+    border-top: none;
+    border-top: none;
     text-align: center;
 }
 
-.register {
+#nextStepBtn {
     background-color: rgb(145, 5, 5);
     height: 50px;
     width: 150px;
@@ -89,11 +84,288 @@ legend {
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
-    margin-bottom: 30px;
 }
 
-.register:hover {
+#nextStepBtn:hover {
     cursor: pointer;
+}
+
+#verifyHuman {
+    text-align: center;
+    border: 1px solid rgb(145, 5, 5);
+    margin-top: 40%;
+}
+
+.labelNumber {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(145, 5, 5);
+}
+
+#numberVerification {
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(4, 133, 36);
+}
+
+#incorrectSum {
+    color: rgb(248, 1, 1);
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+
+#submitFieldset {
+    border: none;
+    margin-bottom: 40%;
+}
+
+#submit {
+    width: 100%;
+    text-align: center;
+}
+
+#submitBtn {
+    background-color: rgb(145, 5, 5);
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#submitBtn:hover {
+    cursor: pointer;
+}
+
+#ageVerification {
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid rgb(145, 5, 5);
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+
+#yesBtn {
+    float: left;
+    border-radius: 10px;
+    background-color: rgb(250, 164, 3);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+}
+
+#noBtn {
+    float: right;
+    border-radius: 10px;
+    background-color: rgb(211, 6, 6);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+}
+
+#congratulationsFieldset {
+    border: 1px solid rgb(102, 2, 2);
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+
+#congratulations {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(145, 5, 5);
+}
+
+#successfullySubmitted {
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(145, 5, 5);
+}
+
+#stoppingFieldset {
+    border: 1px solid rgb(248, 1, 1);
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+
+#stop {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(248, 1, 1);
+}
+
+#notAllowedToContinue {
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(248, 1, 1);
+}
+
+.errorDiv {
+    width: 50%;
+    float: right;
+    margin-top: 0px;
+    font-size: 8px;
+}
+
+#emptyUsername {
+    display: none;
+}
+
+#notEnoughLetters {
+    display: none;
+}
+
+#tooMuchLetters {
+    display: none;
+}
+
+#lettersOrNumbers {
+    display: none;
+}
+
+#emptyFirstName {
+    display: none;
+}
+
+#incorrectFirstName {
+    display: none;
+}
+
+#emptyLastName {
+    display: none;
+}
+
+#incorrectLastName {
+    display: none;
+}
+
+#emptyEmail {
+    display: none;
+}
+
+#incorrectEmail {
+    display: none;
+}
+
+#emptyPassword {
+    display: none;
+}
+
+#tooShortPassword {
+    display: none;
+}
+
+#tooLongPassword {
+    display: none;
+}
+
+#passwordNotMatch {
+    display: none;
+}
+
+#emptyField {
+    display: none;
+}
+
+@media screen and (max-width: 1334px) {
+    #titleRegistration {
+        font-size: 24px;
+    }
+    legend {
+        font-size: 20px;
+    }
+    .label {
+        font-size: 18px;
+    }
+    #nextStepBtn {
+        font-size: 16px;
+    }
+    #submitBtn {
+        font-size: 20px;
+    }
+    #yesBtn {
+        width: 100%;
+    }
+    #noBtn {
+        width: 100%;
+    }
+    #congratulations {
+        font-size: 24px;
+    }
+    #successfullySubmitted {
+        font-size: 18px;
+    }
+    #stop {
+        font-size: 24px;
+    }
+    #notAllowedToContinue {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    #wrapper {
+        width: 35%;
+    }
+    #titleRegistration {
+        font-size: 20px;
+    }
+    legend {
+        font-size: 18px;
+    }
+    .label {
+        font-size: 16px;
+    }
+    .input {
+        width: 98%;
+        font-size: 12px;
+    }
+    .divInformation div {
+        width: 100%;
+    }
+    #congratulations {
+        font-size: 14px;
+    }
+    #successfullySubmitted {
+        font-size: 12px;
+    }
+    #stop {
+        font-size: 14px;
+    }
+    #notAllowedToContinue {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #wrapper {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #wrapper {
+        width: 56%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #wrapper {
+        width: 76%;
+    }
 }
 
 @media screen and (max-width:3000px) {
