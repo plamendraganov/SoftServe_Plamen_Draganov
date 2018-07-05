@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="../css/recipe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script src="data.json"></script>
     <script src="../js/recipe.js"></script>
 </head>
 
-<body onload="myFunction()">
+<body>
 
     <!-- Below is the HTML code for Header, which includes a sticky navigation and large image -->
     <header id="header" class="site-header">
@@ -224,22 +225,16 @@
 
 
         <!-- The Modal -->
-        <div id="myModal" class="modal">
+            <!-- The Modal BUTTON -->
+        <div class="main">
+            <button class="recipe-btn" data-recipe-id="1" >Details</button>
+            <button class="recipe-btn" data-recipe-id="2" >Details</button>
+        </div>
 
-            <!-- Modal content -->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span class="close">&times;</span>
-                    <h4 class="ingridients clearData"></h4>
-                </div>
-                <div class="prepare clearData">
-                    <p></p>
-                </div>
-                <div class="time clearData">
-                    <h3></h3>
-                </div>
-            </div>
-
+    <!-- The Modal -->
+        <div class="modal">
+            <h2></h2>
+            <button class="close-btn">Close</button>
         </div>
 
 
