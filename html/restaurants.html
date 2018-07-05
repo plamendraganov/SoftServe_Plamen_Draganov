@@ -10,12 +10,10 @@
     <link rel="stylesheet" href="../css/restaurants.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-	    <link rel="stylesheet" href="../css/recipe.css">
-		<script src="../js/recipe.js"></script>
+    <link rel="stylesheet" href="../css/recipe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/recipe.js"></script>
 </head>
 
 <body onload="myFunction()">
@@ -46,8 +44,8 @@
                 </li>
             </ul>
         </nav>
-		
-		
+
+
 
         <!-- Below is the HTML code for the large image in the header -->
         <div>
@@ -78,8 +76,7 @@
                             <div class="main-news-horizontal-line">
 
                             </div>
-                            <p>Best restaurant in Sunny beach,the menu is with more than 50 pages,
-                              people wait in line to get inside.</p>
+                            <p>Best restaurant in Sunny beach,the menu is with more than 50 pages, people wait in line to get inside.</p>
                             <a href="http://www.djanny.com/">Read more...</a>
                         </div>
                     </div>
@@ -92,8 +89,7 @@
                             <div class="main-news-horizontal-line">
 
                             </div>
-                            <p>One of the most iconic restaurants in Burgas where you can find plenty of
-                               Bulgarian traditional dishes.</p>
+                            <p>One of the most iconic restaurants in Burgas where you can find plenty of Bulgarian traditional dishes.</p>
                             <a href="https://pochivka.bg/burgaski-vecheri-k1077">Read more...</a>
                         </div>
                     </div>
@@ -105,8 +101,7 @@
                             <a href="http://zlatnotoruno.com/index_en.htm">RESTAURANT GOLDEN FLEECE</a>
                             <div class="main-news-horizontal-line">
                             </div>
-                            <p>In Golden Fleece vrestaurant in Nessebar you would be surprised by the
-                              virgin nature and ecological food.</p>
+                            <p>In Golden Fleece vrestaurant in Nessebar you would be surprised by the virgin nature and ecological food.</p>
                             <a href="http://zlatnotoruno.com/index_en.htm">Read more...</a>
                         </div>
                     </div>
@@ -127,15 +122,12 @@
                     <div class="restaurants-text-container text-right">
                         <h2 class="title-dish">Bulgarian Beef Stew</h2>
 
-                        <p>Also knows as Gyuvech: a mixture of vegetables – eggplant, potatoes, tomatoes,
-                           peas, zucchini, carrots, onions, garlic, with lots of spices. Pork or other
-                            meat could be also added to the dish. </p>
+                        <p>Also knows as Gyuvech: a mixture of vegetables – eggplant, potatoes, tomatoes, peas, zucchini, carrots, onions, garlic, with lots of spices. Pork or other meat could be also added to the dish. </p>
                         </br>
-                        <p>There are many local variants of this delicious dish including a Rabbit stew
-                           or Green beans stew. The dish is traditionally served in clay pots and you
-                            can order it in almost every Bulgarian restaurant.</p>
+                        <p>There are many local variants of this delicious dish including a Rabbit stew or Green beans stew. The dish is traditionally served in clay pots and you can order it in almost every Bulgarian restaurant.</p>
                         </br>
-                        <input type="button" class="btn-recipe" name="btn" value="SEE THE RECIPE">
+                        <button id="dishModal" class="btn-recipe dishModal" name="btn" data-target="modal" value="0">SEE THE RECIPE
+                        </button>
                     </div>
                     <div class="restaurants-image-container image-left">
                         <img src="../images/stew.jpg" alt="BULGARIAN BEEF STEW" class="restaurants-image">
@@ -148,22 +140,16 @@
                 <div class="container">
                     <div class="restaurants-text-container text-left">
                         <h2 class="title-dish">Sharan with Vegetables</h2>
-                        <p>Fish and seafood play an important part in many national styles of cooking,
-                          and Bulgarian cuisine is no exception. Thanks to its vast Black Sea coastline,
-                           its extensive access to the Danube and its numerous high-mountain rivers,
-                            lakes and reservoirs, Bulgaria has an abundance of freshwater and saltwater
-                            delicacies to choose from! </p>
+                        <p>Fish and seafood play an important part in many national styles of cooking, and Bulgarian cuisine is no exception. Thanks to its vast Black Sea coastline, its extensive access to the Danube and its numerous high-mountain rivers,
+                            lakes and reservoirs, Bulgaria has an abundance of freshwater and saltwater delicacies to choose from! </p>
                         </br>
-                        <p>The Bulgarian fish and seafood tradition has a lot in common with how seafood
-                           is prepared and eaten in the wider Mediterranean region. However, the
-                           peculiarities of the Black Sea, with its relative isolation from the World
-                           Ocean,
-                            its anoxic depths, lower salinity and variety of marine life, add a unique
-                            touch to Bulgarian seafood.</p>
+                        <p>The Bulgarian fish and seafood tradition has a lot in common with how seafood is prepared and eaten in the wider Mediterranean region. However, the peculiarities of the Black Sea, with its relative isolation from the World Ocean,
+                            its anoxic depths, lower salinity and variety of marine life, add a unique touch to Bulgarian seafood.</p>
                         </br>
                         <p>Our recommendation is to try the delicious Sharan with vegetables.</p>
                         </br>
-                        <input type="button" class="btn-recipe" name="btn" value="SEE THE RECIPE">
+                        <button id="dishModal" class="btn-recipe dishModal" name="btn" data-target="modal" value="1">SEE THE RECIPE
+                        </button>
                     </div>
                     <div class="restaurants-image-container image-right">
                         <img src="../images/sharan.jpg" alt="SHARAN AND VEGETABLES" class="restaurants-image">
@@ -176,15 +162,12 @@
                 <div class="container">
                     <div class="restaurants-text-container text-right">
                         <h2 class="title-dish">The Shopska Salad</h2>
-                        <p>Shopska salad with a fiery rakia is the most popular choice to set the dinner
-                          mood. Beware, though, that rakia is a high-percentage alcohol and drinking it
-                          on an empty stomach can end your evening incredibly fast.</p>
+                        <p>Shopska salad with a fiery rakia is the most popular choice to set the dinner mood. Beware, though, that rakia is a high-percentage alcohol and drinking it on an empty stomach can end your evening incredibly fast.</p>
                         </br>
-                        <p>On the other hand, this is the best recipe for making friends. “Nazdrave!”
-                          means “Cheers!” in Bulgarian and the more often you raise your glass, the deeper
-                          the connection with your surrounding Bulgarians will become.</p>
+                        <p>On the other hand, this is the best recipe for making friends. “Nazdrave!” means “Cheers!” in Bulgarian and the more often you raise your glass, the deeper the connection with your surrounding Bulgarians will become.</p>
                         </br>
-                        <input type="button" class="btn-recipe" name="btn" value="SEE THE RECIPE">
+                        <button id="dishModal" class="btn-recipe dishModal" name="btn" data-target="modal" value="2">SEE THE RECIPE
+                        </button>
                     </div>
                     <div class="restaurants-image-container image-left">
                         <img src="../images/shopska-salad.jpg" alt="THE SHOPSKA SALAD" class="restaurants-image">
@@ -197,19 +180,15 @@
                 <div class="container">
                     <div class="restaurants-text-container text-left">
                         <h2 class="title-dish">Banichka and Ayran</h2>
-                        <p>Start your day like a Bulgarian with a banitsa and a cup of Ayran.
-                          Banitsa is a savory pastry, usually filled with white brine cheese and eggs.</p>
+                        <p>Start your day like a Bulgarian with a banitsa and a cup of Ayran. Banitsa is a savory pastry, usually filled with white brine cheese and eggs.</p>
                         </br>
-                        <p>Bulgarian yoghurt is celebrated worldwide, and within the country it is enjoyed
-                           both in its thick and in its liquid form. Mix an equal amount of water with
-                           some quality Bulgarian whole-milk yoghurt, stir it and add salt to taste
-                            and you get ayran (or ayryan) – served chilled, the ultimate refreshing milk
-                             drink for the hot Balkan summers.</p>
+                        <p>Bulgarian yoghurt is celebrated worldwide, and within the country it is enjoyed both in its thick and in its liquid form. Mix an equal amount of water with some quality Bulgarian whole-milk yoghurt, stir it and add salt to taste
+                            and you get ayran (or ayryan) – served chilled, the ultimate refreshing milk drink for the hot Balkan summers.</p>
                         </br>
-                        <p>Ayran, though in a thicker variety and often with added herbs, is also popular
-                           throughout Turkey and the Middle East.</p>
+                        <p>Ayran, though in a thicker variety and often with added herbs, is also popular throughout Turkey and the Middle East.</p>
                         </br>
-                        <input type="button" class="btn-recipe" name="btn" value="SEE THE RECIPE">
+                        <button id="dishModal" class="btn-recipe dishModal" name="btn" data-target="modal" value="3">SEE THE RECIPE
+                    </button>
                     </div>
                     <div class="restaurants-image-container image-right">
                         <img src="../images/banichka.jpg" alt="BANICHKA AND AYRAN" class="restaurants-image">
@@ -222,24 +201,18 @@
                 <div class="container">
                     <div class="restaurants-text-container text-right">
                         <h2 class="title-dish">Zapekanka with Potatoes</h2>
-                        <p>Potatoes are a main ingredient in many Bulgarian recipes. The most popular
-                          potato dishes include Ogreten (au gratin), Patatnik (in the Rhodope region),
-                          potato stew, and fried potatoes.</p>
+                        <p>Potatoes are a main ingredient in many Bulgarian recipes. The most popular potato dishes include Ogreten (au gratin), Patatnik (in the Rhodope region), potato stew, and fried potatoes.</p>
                         </br>
-                        <p>Zapekanka is a traditional Bulgarian potato-based dish characteristic of the
-                          Rhodope Mountains. It is prepared with grated potatoes and onions, as well as
-                           spearmint. It is originally cooked over fire or a stove, but is nowadays
-                            also baked in an oven. Some variants add sirene (Bulgarian feta), eggs, or
-                             even peppers.
+                        <p>Zapekanka is a traditional Bulgarian potato-based dish characteristic of the Rhodope Mountains. It is prepared with grated potatoes and onions, as well as spearmint. It is originally cooked over fire or a stove, but is nowadays
+                            also baked in an oven. Some variants add sirene (Bulgarian feta), eggs, or even peppers.
                         </p>
                         </br>
 
-						    <button id="dishModal" class="btn-recipe dishModal" name="btn" data-target=".title-dish"
-                            value="4">SEE THE RECIPE
+                        <button id="dishModal" class="btn-recipe dishModal" name="btn" data-target="modal" value="4">SEE THE RECIPE
                     </button>
-					
-				
-					
+
+
+
                     </div>
                     <div class="restaurants-image-container image-left">
                         <img src="../images/zapekanka.jpg" alt="ZAPEKANKA" class="restaurants-image">
@@ -248,26 +221,26 @@
             </section>
 
         </div>
-		
-		
-<!-- The Modal -->
-<div id="myModal" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h4 class="ingridients clearData"></h4>
-    </div>
-    <div class="prepare clearData">
-      <p></p>
-    </div>
-    <div class="time clearData">
-      <h3></h3>
-    </div>
-  </div>
 
-</div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h4 class="ingridients clearData"></h4>
+                </div>
+                <div class="prepare clearData">
+                    <p></p>
+                </div>
+                <div class="time clearData">
+                    <h3></h3>
+                </div>
+            </div>
+
+        </div>
 
 
 
@@ -287,7 +260,7 @@
                 </div>
 
                 <p class="icons">
-                    <a href="#">  <i class="fa fa-facebook"></i></a>
+                    <a href="#"> <i class="fa fa-facebook"></i></a>
                     <a href="#"><i class="fa fa-twitter"></i></a>
                     <a href="#"><i class="fa fa-google-plus"></i></a>
                     <a href="#"><i class="fa fa-youtube"></i></a>
@@ -341,8 +314,8 @@
 
     </footer>
     <h2 class="copyright">COPYRIGHT 2018 © PLAMEN DRAGANOV · ALL RIGHTS RESERVED ·</h2>
-	
-	
+
+
 </body>
 
 </html>
