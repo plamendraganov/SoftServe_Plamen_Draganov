@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var recipes = [];
 
-    $.getJSON( "https://api.myjson.com/bins/di6v4")
+    $.getJSON("https://api.myjson.com/bins/10dp0i")
         .done(function(data){
             $.each(data, function (index, value) {
                 recipes.push(value);
@@ -11,13 +11,12 @@ $(document).ready(function(){
     var getById = function(id) {
         let filteredItems = recipes.filter(a => {if (a.id === id) return a});
 
-        return filteredItems[0]; // понеже филтър функцията винаги връща редица, така взимаме единственият й елемент
-                               // ако данните са грешни и има дублиращи се id-та се застраховаме от грешки
+        return filteredItems[0]; 
     }
 
     var fillModal = function(item) {
         $('.modal').css('display', 'block');
-        $('.modal h2').text(item.title);
+        $('.modal h2').text(item.title).append('<br>' + item.instructions);
     }
 
     $('.recipe-btn').on('click', function(){
