@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var recipes = [];
 
-    $.getJSON("https://api.myjson.com/bins/118k4i")
+    $.getJSON("https://api.myjson.com/bins/z3m2a")
         .done(function(data){
             $.each(data, function (index, value) {
                 recipes.push(value);
@@ -16,7 +16,19 @@ $(document).ready(function(){
 
     var fillModal = function(item) {
         $('.modal').css('display', 'block');
-        $('.modal h2').text(item.ingredients).append('</br></br>' + item.instructions);
+        $('.modal-header h1').text(item.title);
+
+        $('.modal .modal-footer h1').text(item.time);
+        var arrIngredients = item.ingredients.split(',');
+        var arrInstructions = item.instructions.split(',');
+
+        for (let i = 0; i < 1; i++){
+          $('.modal .modal-body h2').text("");
+          for(let j = 0; j < arrIngredients.length - 1; j++){
+            $('.modal .modal-body h2').append('<li>' + arrIngredients[j] + '</li>');
+          }
+          $('.modal .modal-body h2').append('</br>' + item.instructions);
+        }
     }
 
     $('.recipe-btn').on('click', function(){
