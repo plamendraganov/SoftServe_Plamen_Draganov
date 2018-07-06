@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var recipes = [];
 
-    $.getJSON("https://api.myjson.com/bins/10dp0i")
+    $.getJSON("https://api.myjson.com/bins/118k4i")
         .done(function(data){
             $.each(data, function (index, value) {
                 recipes.push(value);
@@ -11,12 +11,12 @@ $(document).ready(function(){
     var getById = function(id) {
         let filteredItems = recipes.filter(a => {if (a.id === id) return a});
 
-        return filteredItems[0]; 
+        return filteredItems[0];
     }
 
     var fillModal = function(item) {
         $('.modal').css('display', 'block');
-        $('.modal h2').text(item.title).append('<br>' + item.instructions);
+        $('.modal h2').text(item.ingredients).append('<br>' + item.instructions);
     }
 
     $('.recipe-btn').on('click', function(){
