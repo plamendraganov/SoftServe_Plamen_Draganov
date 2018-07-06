@@ -16,7 +16,7 @@ $(document).ready(function(){
 
     var fillModal = function(item) {
         $('.modal').css('display', 'block');
-        $('.modal h2').text(item.ingredients).append('<br>' + item.instructions);
+        $('.modal h2').text(item.ingredients).append('</br></br>' + item.instructions);
     }
 
     $('.recipe-btn').on('click', function(){

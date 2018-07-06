@@ -7,5 +7,22 @@
     height: auto;
     border: 1px solid #777777;
     border-radius: 5px;
-    background-color: lightblue;
+    background-color: #60b3e5;
+    color: #fff;
+    padding: 20px;
+}
+.close-btn {
+    margin-top: 20px;
+    background-color: #d08a00;
+    color: #fff;
+    float: left;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    font-size: 1.6em;
+    text-decoration: none;
+    cursor: pointer;
 }
