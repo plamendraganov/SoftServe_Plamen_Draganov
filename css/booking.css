@@ -36,7 +36,6 @@
     text-align: center;
     font-size: 1.3em;
     margin-bottom: 20px;
-    border: 1px solid red;
 }
 
 .modal-body {
@@ -55,5 +54,7 @@
 
 .priceBGN {
     display: none;
-    color: red;
+    color: #d40606;
+    font-weight: bold;
+    font-size: 1.2em;
 }

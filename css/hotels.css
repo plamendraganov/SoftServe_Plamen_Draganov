@@ -24,10 +24,10 @@ main {
     float: left;
     width: 30%;
     padding: 15px;
-    overflow: hidden;
+    overflow: visible;
     text-align: center;
     margin-bottom: 20px;
-    height: 500px;
+    height: 700px;
     font-size: 1em;
 }
 
@@ -49,20 +49,20 @@ main {
 }
 
 @media screen and (max-width:3000px) {
-    .main-news-image {
-        height: 450px;
+    main {
+        width: 40%;
     }
 }
 
 @media screen and (max-width:2600px) {
-    .main-news-image {
-        height: 400px;
+    main {
+        width: 45%;
     }
 }
 
 @media screen and (max-width:2000px) {
-    .main-news-image {
-        height: 350px;
+    main {
+        width: 50%;
     }
     .column-main-news {
         height: 400px;
@@ -75,6 +75,9 @@ main {
     }
     .column-main-news {
         height: 350px;
+    }
+    main {
+        width: 80%;
     }
 }
 
@@ -97,13 +100,15 @@ main {
     .column-main-news {
         display: inline;
         width: 100%;
-        overflow: hidden;
+        overflow: visible;
+        height: 450px;
         text-align: center;
         font-size: 1em;
         padding-right: 0px;
         padding-left: 0px;
         padding-bottom: 10px;
         padding-top: 10px;
+        margin-bottom: 0px;
     }
     .main-news-image {
         width: 50%;
