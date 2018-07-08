@@ -27,12 +27,15 @@ $(document).ready(function() {
         $('.calculate-price').on('click', function() {
             var nights = $('#nights').val();
             var pickedDate = $('#datepicker').val();
-            alert(item.title)
+            var getPrice = item.price;
+            var totalPrice = getPrice * nights;
+            $('#priceBGN').css('display', 'block').text("The total sum would be " + totalPrice + " BGN");
         })
 
     }
 
     $('.close-btn').on('click', function() {
+        $('#priceBGN').css('display', 'block').text("");
         $('.modal').css('display', 'none');
     });
     $(function() {

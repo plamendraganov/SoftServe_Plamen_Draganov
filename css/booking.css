@@ -52,3 +52,8 @@
     font-size: 1.3em;
     margin-top: 20px;
 }
+
+.priceBGN {
+    display: none;
+    color: red;
+}
