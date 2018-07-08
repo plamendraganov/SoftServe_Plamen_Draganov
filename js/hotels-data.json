@@ -1,0 +1,77 @@
+[{
+        "id": "1",
+        "title": "FLAMINGO GRAND HOTEL",
+        "price": "308"
+    },
+    {
+        "id": "2",
+        "title": "PARADISE BLUE HOTEL",
+        "price": "288"
+    },
+    {
+        "id": "3",
+        "title": "GERGANA SPA HOTEL",
+        "price": "320"
+    },
+    {
+        "id": "4",
+        "title": "ADMIRAL GRAND HOTEL",
+        "price": "278"
+    },
+    {
+        "id": "5",
+        "title": "BERLIN GOLDEN BEACH HOTEL",
+        "price": "293"
+    },
+    {
+        "id": "6",
+        "title": "RIVIERA BEACH HOTEL",
+        "price": "327"
+    },
+    {
+        "id": "7",
+        "title": "VICTORIA PALACE HOTEL",
+        "price": "203"
+    },
+    {
+        "id": "8",
+        "title": "ROYAL PALACE HOTEL",
+        "price": "371"
+    },
+    {
+        "id": "9",
+        "title": "PLANETA HOTEL AND SPA",
+        "price": "268"
+    },
+    {
+        "id": "10",
+        "title": "HOTEL LEBED",
+        "price": "203"
+    },
+    {
+        "id": "11",
+        "title": "HOTEL ROMANCE",
+        "price": "183"
+    },
+    {
+        "id": "12",
+        "title": "GRAND HOTEL CORAL",
+        "price": "120"
+    },
+    {
+        "id": "13",
+        "title": "GARDEN OF EDEN HOTEL",
+        "price": "137"
+    },
+    {
+        "id": "14",
+        "title": "ETARA BOUTIQUE HOTEL",
+        "price": "175"
+    },
+    {
+        "id": "15",
+        "title": "MARINA SPA HOTEL",
+        "price": "319"
+    }
+
+]
