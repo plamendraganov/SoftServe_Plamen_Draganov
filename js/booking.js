@@ -26,9 +26,12 @@ $(document).ready(function() {
 
         $('.calculate-price').on('click', function() {
             var nights = $('#nights').val();
-            var pickedDate = $('#datepicker').val();
             var getPrice = item.price;
             var totalPrice = getPrice * nights;
+            var pickedDate = $('#datepicker').val().split('/');
+            if(pickedDate[0] < 5 || pickedDate[0] > 9){
+              totalPrice = totalPrice / 2;
+            }
             $('#priceBGN').css('display', 'block').text("The total sum would be " + totalPrice + " BGN");
         })
 

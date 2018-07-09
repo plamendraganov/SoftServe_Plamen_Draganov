@@ -9,6 +9,15 @@ main {
     margin-bottom: 100px;
 }
 
+.row {
+  height: 320px;
+}
+
+
+.main-news-container p {
+  margin-bottom: 10px;
+}
+
 .title-three-main-news {
     margin-left: 20px;
     margin-top: 50px;
@@ -46,6 +55,17 @@ main {
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.double-room {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.check-in {
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 @media screen and (max-width:3000px) {
