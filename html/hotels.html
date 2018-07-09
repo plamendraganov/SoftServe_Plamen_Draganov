@@ -19,6 +19,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="../js/booking.js"></script>
+    <script src="../js/location.js"></script>
 </head>
 
 <body>
@@ -72,7 +73,7 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/flamingo.jpg" class="main-news-image">
-                        <a href="http://flamingogrand.com/english/">FLAMINGO GRAND HOTEL</a>
+                          <button class="get-location" data-hotel-id="1" >FLAMINGO GRAND HOTEL</button>
                         <div class="main-news-horizontal-line">
 
                         </div>
@@ -86,14 +87,13 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/paradise.jpg" class="main-news-image">
-                        <a href="http://albena.bg/en/hotels/hotel-paradise-blue-albena.html">
-                          PARADISE BLUE HOTEL</a>
+                        <button class="get-location" data-hotel-id="2" >PARADISE BLUE HOTEL</button>
 
                         <div class="main-news-horizontal-line">
 
                         </div>
                         <p>Ideally located in the center of the resort of Albena overlooking the sea, the newly built 5* hotel offers the highest comfort and standards of quality in every amenity. </p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="2">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="2">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -102,11 +102,11 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/gergana.jpg" class="main-news-image">
-                        <a href="http://www.hotelgergana.com/en-us">GERGANA SPA HOTEL</a>
+                        <button class="get-location" data-hotel-id="3" >GERGANA SPA HOTEL</button>
                         <div class="main-news-horizontal-line">
                         </div>
                         <p>Offering a seasonal outdoor pool and views of the sea, Hotel Gergana is set in Albena in the Varna Province Region, 9 km from Golden Sands.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="3">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="3">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -121,12 +121,12 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/admiral.jpg" class="main-news-image">
-                        <a href="http://www.admiral.bg/bg/page/1/home#ad-image-0">ADMIRAL GRAND HOTEL</a>
+                        <button class="get-location" data-hotel-id="4" >ADMIRAL GRAND HOTEL</button>
                         <div class="main-news-horizontal-line">
 
                         </div>
                         <p>The Admiral Hotel – the jewel of the crown of Golden Sands is at only 18 km from Varna in a immediate proximity to the beach.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="4">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="4">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -135,13 +135,13 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/berlin.jpg" class="main-news-image">
-                        <a href="https://www.goldensands.bg/berlin/">BERLIN GOLDEN BEACH HOTEL</a>
+                        <button class="get-location" data-hotel-id="5" >BERLIN GOLDEN BEACH HOTEL</button>
 
                         <div class="main-news-horizontal-line">
 
                         </div>
                         <p>Hotel Berlin Golden Beach is situated in the north part of Golden Sands resort near the yacht port.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="5">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="5">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -150,11 +150,11 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/riviera.jpg" class="main-news-image">
-                        <a href="http://rivierabulgaria.com/en/hotels/riviera-beach">RIVIERA BEACH HOTEL</a>
+                        <button class="get-location" data-hotel-id="6" >RIVIERA BEACH HOTEL</button>
                         <div class="main-news-horizontal-line">
                         </div>
                         <p>Hotel Riviera Beach, 5* is located in the southern part of the resort of Golden Sands, on the sea shore itself.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="6">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="6">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -169,12 +169,12 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/victoria-palace.jpg" class="main-news-image">
-                        <a href="http://www.hotelvictoria-bg.com/?lang=de">VICTORIA PALACE HOTEL</a>
+                        <button class="get-location" data-hotel-id="7" >VICTORIA PALACE HOTEL</button>
                         <div class="main-news-horizontal-line">
 
                         </div>
                         <p>Right there on the Black Sea coast in the most popular Bulgarian summer resort – Sunny Beach. </p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="7">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="7">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -183,13 +183,13 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/royal-palace.jpg" class="main-news-image">
-                        <a href="http://www.royalpalacehelenasands.com/">ROYAL PALACE HOTEL</a>
+                        <button class="get-location" data-hotel-id="8" >ROYAL PALACE HOTEL</button>
 
                         <div class="main-news-horizontal-line">
 
                         </div>
                         <p>Situated directly on the beach, In a 14,500 m2 garden together with the Riu Helena Park Hotel.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="8">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="8">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -198,11 +198,11 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/planeta-hotel.jpg" class="main-news-image">
-                        <a href="http://www.planetagroup.net/spa-center/">PLANETA HOTEL AND SPA</a>
+                        <button class="get-location" data-hotel-id="9" >PLANETA HOTEL AND SPA</button>
                         <div class="main-news-horizontal-line">
                         </div>
                         <p>Located only 70 metres from the beach in the centre of Sunny Beach, the luxurious, first-class Planeta Hotel and Aquapark.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="9">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="9">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -217,12 +217,12 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/lebed.jpg" class="main-news-image">
-                        <a href="http://www.grandhotelvarna.com/hotels/7/Hotel+Lebed+4%2A/en">HOTEL LEBED</a>
+                        <button class="get-location" data-hotel-id="10" >HOTEL LEBED</button>
                         <div class="main-news-horizontal-line">
 
                         </div>
                         <p>Located in Varna and only 90 m from the seashore , the 4* Lebed Hotel offers quiet ambience of muted luxury.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="10">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="10">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -231,13 +231,13 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/romance.jpg" class="main-news-image">
-                        <a href="http://romancesplendid.net/en/">HOTEL ROMANCE</a>
+                        <button class="get-location" data-hotel-id="11" >HOTEL ROMANCE</button>
 
                         <div class="main-news-horizontal-line">
 
                         </div>
                         <p>Located in the very center of the oldest Bulgarian resort on the Black Sea - Saints Konstantin and Helena.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="11">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="11">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -246,11 +246,11 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/coral.jpg" class="main-news-image">
-                        <a href="http://coral.thracian-hoteliers.com/en/">GRAND HOTEL CORAL</a>
+                        <button class="get-location" data-hotel-id="12" >GRAND HOTEL CORAL</button>
                         <div class="main-news-horizontal-line">
                         </div>
                         <p>Hotel Coral is in unison with the unique atmosphere of the beautiful seaside town of Sozopol.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="12">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="12">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -265,12 +265,12 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/paradise-garden.jpg" class="main-news-image">
-                        <a href="https://gardenofeden.bg/en/accommodation">GARDEN OF EDEN HOTEL</a>
+                        <button class="get-location" data-hotel-id="13" >GARDEN OF EDEN HOTEL</button>
                         <div class="main-news-horizontal-line">
 
                         </div>
                         <p>Garden of Eden is a seashore resort in St. Vlas, Bulgaria, located right on the Black Sea coast.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="13">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="13">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -279,13 +279,13 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/etara.jpg" class="main-news-image">
-                        <a href="https://www.roomex.com/etara-1-hotel-bourgas-black-sea-resorts.221600.hotelinfo.html">ETARA BOUTIQUE HOTEL</a>
+                        <button class="get-location" data-hotel-id="14" >ETARA BOUTIQUE HOTEL</button>
 
                         <div class="main-news-horizontal-line">
 
                         </div>
                         <p>This complex is located in the St. Vlas resort, on the waterfront, just 20 m away from the sea and 200 m from the sandy beach. </p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="14">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="14">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -294,11 +294,11 @@
                 <div class="column-main-news">
                     <div class="main-news-container">
                         <img src="../images/marina.jpg" class="main-news-image">
-                        <a href="https://www.duni.bg/en/hotels/marina-beach.html">MARINA SPA HOTEL</a>
+                        <button class="get-location" data-hotel-id="15" >MARINA SPA HOTEL</button>
                         <div class="main-news-horizontal-line">
                         </div>
                         <p>Located in the resort of Dyuni the hotel is the perfect place for fanciers of five-star luxury and a relaxing vacation.</p>
-                        <button class="btn-recipe hotel-btn" name="btn" data-hotel-id="15">CALCULATE PRICE
+                        <button class="hotel-btn" name="btn" data-hotel-id="15">CALCULATE PRICE
                         </button>
                     </div>
                 </div>
@@ -316,7 +316,7 @@
                     </br>
                     <input type="text" id="datepicker"></p>
                 </br>
-                <p><input type="number" id="nights" placeholder="Enter number of nights"></p>
+                <p><input type="number" id="nights" placeholder="Enter number of nights" min="1" max="100"></p>
                 </br>
                 <h2 id="priceBGN" class="priceBGN"></h2>
             </div>
@@ -327,6 +327,14 @@
             </div>
         </div>
 
+          <div class="modal-location">
+  		        <div id="map" class="map"></div>
+              <button class="close-location">Close</button>
+          </div>
+
+
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4PT-X_j5UwT6TY6ahxiYH8a1vwo4e7aU&callback=myMap"></script>
     </main>
 
     <!-- Below is the HTML code for the FOOTER of the page -->

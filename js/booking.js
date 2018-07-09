@@ -1,24 +1,24 @@
 $(document).ready(function() {
     var hotels = [];
 
-    $.getJSON("https://api.myjson.com/bins/nbyr2")
+    $.getJSON("https://api.myjson.com/bins/1fta3e")
         .done(function(data) {
             $.each(data, function(index, value) {
                 hotels.push(value);
             });
         });
 
+        var getById = function(id) {
+            let filteredItems = hotels.filter(a => { if (a.id === id) return a });
+
+            return filteredItems[0];
+        }
+
     $('.hotel-btn').on('click', function() {
         var id = $(this).attr('data-hotel-id');
         var item = getById(id);
         fillModal(item);
     });
-
-    var getById = function(id) {
-        let filteredItems = hotels.filter(a => { if (a.id === id) return a });
-
-        return filteredItems[0];
-    }
 
     var fillModal = function(item) {
         $('.modal').css('display', 'block');

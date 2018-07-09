@@ -1,77 +1,107 @@
 [{
         "id": "1",
         "title": "FLAMINGO GRAND HOTEL",
-        "price": "308"
+        "price": "308",
+        "latitude": "43.367881",
+        "longitude":"28.079277"
     },
     {
         "id": "2",
         "title": "PARADISE BLUE HOTEL",
-        "price": "288"
+        "price": "288",
+        "latitude": "43.368802",
+        "longitude": "28.082384"
     },
     {
         "id": "3",
         "title": "GERGANA SPA HOTEL",
-        "price": "320"
+        "price": "320",
+        "latitude": "43.354579",
+        "longitude": "28.075763"
     },
     {
         "id": "4",
         "title": "ADMIRAL GRAND HOTEL",
-        "price": "278"
+        "price": "278",
+        "latitude": "43.286086",
+        "longitude": "28.044040"
     },
     {
         "id": "5",
         "title": "BERLIN GOLDEN BEACH HOTEL",
-        "price": "293"
+        "price": "293",
+        "latitude": "43.286799",
+        "longitude": "28.036561"
     },
     {
         "id": "6",
         "title": "RIVIERA BEACH HOTEL",
-        "price": "327"
+        "price": "327",
+        "latitude": "43.272325",
+        "longitude": "28.038993"
     },
     {
         "id": "7",
         "title": "VICTORIA PALACE HOTEL",
-        "price": "203"
+        "price": "203",
+        "latitude": "42.707029",
+        "longitude": "27.724853"
     },
     {
         "id": "8",
         "title": "ROYAL PALACE HOTEL",
-        "price": "371"
+        "price": "371",
+        "latitude": "42.708819",
+        "longitude": "27.728336"
     },
     {
         "id": "9",
         "title": "PLANETA HOTEL AND SPA",
-        "price": "268"
+        "price": "268",
+        "latitude": "42.699679",
+        "longitude": "27.710079"
     },
     {
         "id": "10",
         "title": "HOTEL LEBED",
-        "price": "203"
+        "price": "203",
+        "latitude": "43.227928",
+        "longitude": "28.009876"
     },
     {
         "id": "11",
         "title": "HOTEL ROMANCE",
-        "price": "183"
+        "price": "183",
+        "latitude": "43.232527",
+        "longitude": "28.009796"
     },
     {
         "id": "12",
         "title": "GRAND HOTEL CORAL",
-        "price": "120"
+        "price": "120",
+        "latitude": "43.229276",
+        "longitude": "28.006083"
     },
     {
         "id": "13",
         "title": "GARDEN OF EDEN HOTEL",
-        "price": "137"
+        "price": "137",
+        "latitude": "42.708018",
+        "longitude": "27.778109"
     },
     {
         "id": "14",
         "title": "ETARA BOUTIQUE HOTEL",
-        "price": "175"
+        "price": "175",
+        "latitude": "42.705776",
+        "longitude": "27.776576"
     },
     {
         "id": "15",
         "title": "MARINA SPA HOTEL",
-        "price": "319"
+        "price": "319",
+        "latitude": "43.241947",
+        "longitude": "28.017855"
     }
 
 ]
