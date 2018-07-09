@@ -57,6 +57,14 @@ main {
     margin-bottom: 5px;
 }
 
+.hotel-btn {
+  background-color: #d08a00;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  letter-spacing: 2px;
+}
+
 .double-room {
   font-weight: bold;
   text-align: center;

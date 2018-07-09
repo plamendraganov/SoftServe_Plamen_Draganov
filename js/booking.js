@@ -32,7 +32,7 @@ $(document).ready(function() {
             if(pickedDate[0] < 5 || pickedDate[0] > 9){
               totalPrice = totalPrice / 2;
             }
-            $('#priceBGN').css('display', 'block').text("The total sum would be " + totalPrice + " BGN");
+            $('#priceBGN').css('display', 'block').text("The total sum would be: " + totalPrice + " BGN");
         })
 
     }
