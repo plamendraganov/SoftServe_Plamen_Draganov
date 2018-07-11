@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  var hotels = [];
+  let hotels = [];
 
   $.getJSON("https://api.myjson.com/bins/1fta3e")
       .done(function(data) {
@@ -9,15 +9,15 @@ $(document).ready(function(){
           });
       });
 
-      var getById = function(id) {
+      let getById = function(id) {
           let filteredItems = hotels.filter(a => { if (a.id === id) return a });
 
           return filteredItems[0];
       }
 
       $('.get-location').on('click', function(){
-        var id = $(this).attr('data-hotel-id');
-        var item = getById(id);
+        let id = $(this).attr('data-hotel-id');
+        let item = getById(id);
           fillModal();
           myMap(item);
       });
@@ -27,12 +27,12 @@ $(document).ready(function(){
         $('.modal-location').css('display', 'block');
     }
 
-      var myMap = function(item) {
-      var myCenter = new google.maps.LatLng(item.latitude, item.longitude);
-      var mapCanvas = document.getElementById("map");
-      var mapOptions = {center: myCenter, zoom: 5};
-      var map = new google.maps.Map(mapCanvas, mapOptions);
-      var marker = new google.maps.Marker({position:myCenter});
+      let myMap = function(item) {
+      let myCenter = new google.maps.LatLng(item.latitude, item.longitude);
+      let mapCanvas = document.getElementById("map");
+      let mapOptions = {center: myCenter, zoom: 5};
+      let map = new google.maps.Map(mapCanvas, mapOptions);
+      let marker = new google.maps.Marker({position:myCenter});
       marker.setMap(map);
     }
 

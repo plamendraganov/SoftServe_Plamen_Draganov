@@ -14,17 +14,21 @@
 }
 
 .close-btn {
+	min-width: 30%;
     margin-top: 20px;
-    background-color: #d08a00;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f46465;
     color: #fff;
-    float: left;
-    font-size: 1.4em;
+    float: right;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
 .close-btn:hover,
 .close-btn:focus {
-    font-size: 1.5em;
     text-decoration: none;
     cursor: pointer;
 }

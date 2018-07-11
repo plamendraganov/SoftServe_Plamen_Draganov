@@ -1,6 +1,6 @@
 .modal,
 .modal-location {
-		position: fixed;
+	position: fixed;
     margin: 0px auto;
     top: 80px;
     left: 27%;
@@ -14,7 +14,29 @@
     padding: 20px;
 }
 
-.close-btn,
+.get-location {
+	background-color: #60b3e5;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1.7;
+}
+
+.close-btn {
+	min-width: 30%;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f46465;
+    color: #fff;
+    float: right;
+    font-size: 1.2em;
+    font-weight: bold;
+	letter-spacing: 2px;
+}
+
 .close-location {
     min-width: 30%;
     margin-top: 20px;
@@ -22,7 +44,7 @@
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #d08a00;
+    background-color: #f46465;
     color: #fff;
     float: right;
     font-size: 1.2em;

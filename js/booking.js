@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var hotels = [];
+    let hotels = [];
 
     $.getJSON("https://api.myjson.com/bins/1fta3e")
         .done(function(data) {
@@ -8,27 +8,27 @@ $(document).ready(function() {
             });
         });
 
-        var getById = function(id) {
+        let getById = function(id) {
             let filteredItems = hotels.filter(a => { if (a.id === id) return a });
 
             return filteredItems[0];
         }
 
     $('.hotel-btn').on('click', function() {
-        var id = $(this).attr('data-hotel-id');
-        var item = getById(id);
+        let id = $(this).attr('data-hotel-id');
+        let item = getById(id);
         fillModal(item);
     });
 
-    var fillModal = function(item) {
+    let fillModal = function(item) {
         $('.modal').css('display', 'block');
         $('.modal-header h1').text(item.title);
 
         $('.calculate-price').on('click', function() {
-            var nights = $('#nights').val();
-            var getPrice = item.price;
-            var totalPrice = getPrice * nights;
-            var pickedDate = $('#datepicker').val().split('/');
+            let nights = $('#nights').val();
+            let getPrice = item.price;
+            let totalPrice = getPrice * nights;
+            let pickedDate = $('#datepicker').val().split('/');
             if(pickedDate[0] < 5 || pickedDate[0] > 9){
               totalPrice = totalPrice / 2;
             }

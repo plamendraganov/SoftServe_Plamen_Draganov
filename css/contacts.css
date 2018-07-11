@@ -22,6 +22,7 @@ form {
 #userInformation {
     border: 1px solid rgb(145, 5, 5);
     border-bottom: none;
+	padding: 10px;
 }
 
 legend {
@@ -184,6 +185,7 @@ legend {
     font-size: 28px;
     font-weight: bold;
     color: rgb(145, 5, 5);
+	margin-bottom: 10px;
 }
 
 #successfullySubmitted {
@@ -204,6 +206,7 @@ legend {
     font-size: 28px;
     font-weight: bold;
     color: rgb(248, 1, 1);
+	margin-bottom: 10px;
 }
 
 #notAllowedToContinue {
