@@ -1,7 +1,7 @@
 main {
+	overflow: hidden;
     width: 80%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .three-main-news {
@@ -20,28 +20,28 @@ main {
 }
 
 .title-container {
+	margin-top: 50px;
     margin-left: 20px;
-    margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
 }
 
 .title-explore,
 .title-recipes {
+	color: #d08a00;
     font-size: 2.2em;
-    color: #d08a00;
     text-align: center;
 }
 
 .column-main-news {
     float: left;
+	overflow: hidden;
     width: 30%;
+	height: 500px;
     padding: 15px;
-    overflow: hidden;
-    text-align: center;
-    margin-bottom: 20px;
-    height: 500px;
-    font-size: 1em;
+	margin-bottom: 20px;
+	font-size: 1em;
+    text-align: center;  
 }
 
 .main-news-image {
@@ -54,17 +54,17 @@ main {
 }
 
 .main-news-horizontal-line {
+	width: 60%;
     border-top: 3px dotted black;
-    width: 60%;
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .section-box {
+	overflow: hidden;
     width: 100%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .container {
@@ -74,9 +74,9 @@ main {
 
 .restaurants-image-container {
     float: left;
+	overflow: hidden;
     width: 60%;
     height: auto;
-    overflow: hidden;
 }
 
 .restaurants-image {
@@ -90,18 +90,18 @@ main {
 
 .restaurants-text-container {
     width: 36%;
+	padding-right: 20px;
     padding-left: 20px;
-    padding-right: 20px;
 }
 
 .title-dish {
+	margin-top: 20px;
+    margin-bottom: 20px;
+	color: #f46465;
     font-size: 1.4em;
     font-weight: bold;
     font-style: italic;
-    color: #f46465;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .text-left {
@@ -121,12 +121,12 @@ main {
 }
 
 .btn-recipe {
-    margin-bottom: 20px;
-    color: #fff;
-    background-color: #d08a00;
-    width: 50%;
+	width: 50%;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-bottom: 20px;
+	background-color: #d08a00;
+    color: #fff;
     font-size: 1.1em;
     text-align: center;
 }
@@ -193,35 +193,35 @@ main {
 
 @media screen and (max-width:1250px) {
     .restaurants-text-container {
+		padding-right: 0px;
+		padding-left: 0px;
         font-size: 0.9em;
-        padding-left: 0px;
-        padding-right: 0px;
     }
     .column-main-news {
         display: inline;
+		overflow: hidden;
         width: 100%;
-        overflow: hidden;
-        text-align: center;
+		padding-top: 10px;
+		padding-right: 0px;
+		padding-bottom: 10px;
+		padding-left: 0px;
         font-size: 1em;
-        padding-right: 0px;
-        padding-left: 0px;
-        padding-bottom: 10px;
-        padding-top: 10px;
+        text-align: center;   
     }
     .main-news-image {
+		float: left;
         width: 50%;
-        float: left;
         height: auto;
         margin-right: 10px;
     }
     .main-news-horizontal-line {
-        border-top: 3px dotted black;
-        width: 48%;
-        float: right;
+		float: right;
+		width: 48%;
+        border-top: 3px dotted black; 
+		margin-top: 10px;		
+		margin-right: 0px;
+		margin-bottom: 10px;
         margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 10px;
-        margin-bottom: 10px;
     }
 }
 
@@ -231,20 +231,20 @@ main {
         margin-top: 50px;
     }
     .restaurantsl-image-container {
+		overflow: hidden;
         width: 100%;
         height: auto;
-        overflow: hidden;
     }
     .restaurants-text-container {
-        font-size: 1em;
         width: 100%;
+		padding-right: 0px;
         padding-left: 0px;
-        padding-right: 0px;
+		font-size: 1em;
     }
     .btn-recipe {
+		width: 100%;
+		background-color: #d08a00;
         color: #fff;
-        background-color: #d08a00;
-        width: 100%;
         text-align: center;
     }
 }
@@ -269,12 +269,12 @@ main {
         margin-bottom: 20px;
     }
     .main-news-horizontal-line {
-        border-top: 3px dotted black;
-        width: 60%;
-        float: none;
+		float: none;
+		width: 60%;
         margin: 0 auto;
         margin-top: 10px;
         margin-bottom: 10px;
+        border-top: 3px dotted black;
     }
     .column-main-news {
         height: 400px;

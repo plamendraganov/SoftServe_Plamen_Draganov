@@ -1,8 +1,8 @@
 footer {
+	padding: 30px;
     margin-top: 30px;
     background-color: #323232;
     color: #fff;
-    padding: 30px;
 }
 
 .footer-col-container {
@@ -25,8 +25,8 @@ footer {
 
 .footer-list a {
     color: #fff;
-    text-decoration: none;
     font-size: 1.1em;
+	text-decoration: none;
 }
 
 .footer-title {
@@ -81,19 +81,19 @@ footer {
 }
 
 .footer-horizontal-line {
-    border-top: 3px solid #d08a00;
     width: 30px;
+	border-top: 3px solid #d08a00;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 .copyright {
+	margin-top: 20px;
+    margin-bottom: 20px;
     background-color: #fff;
     color: #000;
     text-align: center;
     font-size: 1.2em;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 @media screen and (max-width:3000px) {

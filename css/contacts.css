@@ -1,10 +1,10 @@
 main {
+	overflow: hidden;
     width: 80%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
-#wrapper {
+.wrapper {
     width: 40%;
     margin: 0 auto;
 }
@@ -13,22 +13,22 @@ form {
     background: transparent;
 }
 
-#titleRegistration {
-    text-align: center;
+.titleRegistration {
+	color: rgb(145, 5, 5);
     font-size: 30px;
-    color: rgb(145, 5, 5);
+	text-align: center;
 }
 
-#userInformation {
+.userInformation {
+	padding: 10px;
     border: 1px solid rgb(145, 5, 5);
     border-bottom: none;
-	padding: 10px;
 }
 
 legend {
+	color: rgb(145, 5, 5);
+	font-size: 24px;
     font-weight: bold;
-    font-size: 24px;
-    color: rgb(145, 5, 5);
 }
 
 .divInformation {
@@ -37,254 +37,253 @@ legend {
 }
 
 .divInformation div {
+	float: right;
     width: 51%;
     height: 25%;
-    float: right;
 }
 
 .divInformation div p {
-    color: rgb(248, 1, 1);
+	float: right;
     width: 100%;
     height: 100%;
-    float: right;
-    font-size: 12px;
     margin-top: 0px;
+	color: rgb(248, 1, 1);
+	font-size: 12px;
     text-align: center;
 }
 
 .label {
+	height: 30%;
     color: rgb(145, 5, 5);
-    height: 30%;
+	font-size: 20px;
     font-weight: bold;
-    font-size: 20px;
 }
 
 .input {
-    margin-top: 2px;
-    border-radius: 3px;
-    text-align: center;
+	float: right;
+	width: 50%;
     height: 25%;
-    width: 50%;
-    float: right;
+	border: 1px solid grey;
+	border-radius: 3px;
+    margin-top: 2px;
     background-color: white;
-    border: 1px solid grey;
+	text-align: center;
 }
 
-#nextStep {
+.nextStep {
     border: 1px solid rgb(145, 5, 5);
     border-top: none;
-    border-top: none;
     text-align: center;
 }
 
-#nextStepBtn {
-    background-color: rgb(145, 5, 5);
+.nextStepBtn {
+	width: 150px;
     height: 50px;
-    width: 150px;
+	border-radius: 10px;
+	background-color: rgb(145, 5, 5);
     color: white;
     font-size: 18px;
     font-weight: bold;
-    border-radius: 10px;
 }
 
-#nextStepBtn:hover {
+.nextStepBtn:hover {
     cursor: pointer;
 }
 
-#verifyHuman {
-    text-align: center;
+.verifyHuman {
     border: 1px solid rgb(145, 5, 5);
     margin-top: 40%;
+	text-align: center;
 }
 
 .labelNumber {
+	color: rgb(145, 5, 5);
     font-size: 24px;
     font-weight: bold;
-    color: rgb(145, 5, 5);
 }
 
-#numberVerification {
+.numberVerification {
     width: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: center;
+	color: rgb(4, 133, 36);
     font-size: 22px;
     font-weight: bold;
-    color: rgb(4, 133, 36);
+	text-align: center;
 }
 
-#incorrectSum {
+.incorrectSum {
+	display: none;
     color: rgb(248, 1, 1);
     font-size: 20px;
     text-align: center;
-    display: none;
 }
 
-#submitFieldset {
+.submitFieldset {
     border: none;
     margin-bottom: 40%;
 }
 
-#submit {
+.submit {
     width: 100%;
     text-align: center;
 }
 
-#submitBtn {
-    background-color: rgb(145, 5, 5);
+.submitBtn {
+	width: 150px;
     height: 50px;
-    width: 150px;
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
     border-radius: 10px;
+	background-color: rgb(145, 5, 5);
+	color: white;
+    font-size: 22px;
+    font-weight: bold; 
 }
 
-#submitBtn:hover {
+.submitBtn:hover {
     cursor: pointer;
 }
 
-#ageVerification {
-    font-size: 22px;
-    font-weight: bold;
+.ageVerification {
     border: 1px solid rgb(145, 5, 5);
     margin-top: 40%;
     margin-bottom: 40%;
+	font-size: 22px;
+    font-weight: bold;
 }
 
-#yesBtn {
+.yesBtn {
     float: left;
+	width: 150px;
+	height: 50px;
     border-radius: 10px;
     background-color: rgb(250, 164, 3);
     color: white;
     font-size: 18px;
     font-weight: bold;
-    height: 50px;
-    width: 150px;
 }
 
-#noBtn {
+.noBtn {
     float: right;
+	width: 150px;
+	height: 50px;
     border-radius: 10px;
     background-color: rgb(211, 6, 6);
     color: white;
     font-size: 18px;
     font-weight: bold;
-    height: 50px;
-    width: 150px;
 }
 
-#congratulationsFieldset {
+.congratulationsFieldset {
     border: 1px solid rgb(102, 2, 2);
     margin-top: 40%;
     margin-bottom: 40%;
 }
 
-#congratulations {
-    text-align: center;
+.congratulations {
+	margin-bottom: 10px;
+	color: rgb(145, 5, 5);
     font-size: 28px;
     font-weight: bold;
-    color: rgb(145, 5, 5);
-	margin-bottom: 10px;
+	text-align: center;
 }
 
-#successfullySubmitted {
-    text-align: center;
+.successfullySubmitted {
+	color: rgb(145, 5, 5);
     font-size: 22px;
     font-style: italic;
-    color: rgb(145, 5, 5);
+	text-align: center;
 }
 
-#stoppingFieldset {
+.stoppingFieldset {
     border: 1px solid rgb(248, 1, 1);
     margin-top: 40%;
     margin-bottom: 40%;
 }
 
-#stop {
-    text-align: center;
+.stop {
+	margin-bottom: 10px;
+	color: rgb(248, 1, 1);
     font-size: 28px;
     font-weight: bold;
-    color: rgb(248, 1, 1);
-	margin-bottom: 10px;
+	text-align: center;
 }
 
-#notAllowedToContinue {
-    text-align: center;
+.notAllowedToContinue {
+	color: rgb(248, 1, 1);
     font-size: 22px;
     font-style: italic;
-    color: rgb(248, 1, 1);
+	text-align: center;
 }
 
 .errorDiv {
+	float: right;
     width: 50%;
-    float: right;
     margin-top: 0px;
     font-size: 8px;
 }
 
-#emptyUsername {
+.emptyUsername {
     display: none;
 }
 
-#notEnoughLetters {
+.notEnoughLetters {
     display: none;
 }
 
-#tooMuchLetters {
+.tooMuchLetters {
     display: none;
 }
 
-#lettersOrNumbers {
+.lettersOrNumbers {
     display: none;
 }
 
-#emptyFirstName {
+.emptyFirstName {
     display: none;
 }
 
-#incorrectFirstName {
+.incorrectFirstName {
     display: none;
 }
 
-#emptyLastName {
+.emptyLastName {
     display: none;
 }
 
-#incorrectLastName {
+.incorrectLastName {
     display: none;
 }
 
-#emptyEmail {
+.emptyEmail {
     display: none;
 }
 
-#incorrectEmail {
+.incorrectEmail {
     display: none;
 }
 
-#emptyPassword {
+.emptyPassword {
     display: none;
 }
 
-#tooShortPassword {
+.tooShortPassword {
     display: none;
 }
 
-#tooLongPassword {
+.tooLongPassword {
     display: none;
 }
 
-#passwordNotMatch {
+.passwordNotMatch {
     display: none;
 }
 
-#emptyField {
+.emptyField {
     display: none;
 }
 
 @media screen and (max-width: 1334px) {
-    #titleRegistration {
+    .titleRegistration {
         font-size: 24px;
     }
     legend {
@@ -293,37 +292,37 @@ legend {
     .label {
         font-size: 18px;
     }
-    #nextStepBtn {
+    .nextStepBtn {
         font-size: 16px;
     }
-    #submitBtn {
+    .submitBtn {
         font-size: 20px;
     }
-    #yesBtn {
+    .yesBtn {
         width: 100%;
     }
-    #noBtn {
+    .noBtn {
         width: 100%;
     }
-    #congratulations {
+    .congratulations {
         font-size: 24px;
     }
-    #successfullySubmitted {
+    .successfullySubmitted {
         font-size: 18px;
     }
-    #stop {
+    .stop {
         font-size: 24px;
     }
-    #notAllowedToContinue {
+    .notAllowedToContinue {
         font-size: 24px;
     }
 }
 
 @media screen and (max-width: 1220px) {
-    #wrapper {
+    .wrapper {
         width: 35%;
     }
-    #titleRegistration {
+    .titleRegistration {
         font-size: 20px;
     }
     legend {
@@ -339,34 +338,34 @@ legend {
     .divInformation div {
         width: 100%;
     }
-    #congratulations {
+    .congratulations {
         font-size: 14px;
     }
-    #successfullySubmitted {
+    .successfullySubmitted {
         font-size: 12px;
     }
-    #stop {
+    .stop {
         font-size: 14px;
     }
-    #notAllowedToContinue {
+    .notAllowedToContinue {
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 750px) {
-    #wrapper {
+    .wrapper {
         width: 40%;
     }
 }
 
 @media screen and (max-width: 550px) {
-    #wrapper {
+    .wrapper {
         width: 56%;
     }
 }
 
 @media screen and (max-width: 450px) {
-    #wrapper {
+    .wrapper {
         width: 76%;
     }
 }
@@ -403,29 +402,29 @@ legend {
 
 @media screen and (max-width:1250px) {
     .label {
+		height: 100%;
         color: rgb(145, 5, 5);
-        height: 100%;
         font-weight: bold;
         font-size: 16px;
     }
     .input {
+		float: right;
+		width: 100%;
+		height: 25%;
+		border-radius: 3px;
         margin-top: 2px;
-        border-radius: 3px;
-        text-align: center;
-        height: 25%;
-        width: 100%;
-        float: right;
-        background-color: white;
+		background-color: white;
         border: 1px solid grey;
+        text-align: center;  
     }
     .register {
-        background-color: rgb(145, 5, 5);
+		width: 100%;
         height: 50px;
-        width: 100%;
+		border-radius: 10px;
+        margin-bottom: 30px;
+        background-color: rgb(145, 5, 5);
         color: white;
         font-size: 18px;
         font-weight: bold;
-        border-radius: 10px;
-        margin-bottom: 30px;
     }
 }

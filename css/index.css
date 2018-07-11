@@ -1,18 +1,18 @@
 /* Create three equal columns that floats next to each other */
 
 main {
+	position: relative;
+    z-index: 2;
+    overflow: hidden;
     width: 80%;
     margin: 0 auto;
     margin-top: -55px;
-    position: relative;
-    z-index: 2;
-    overflow: hidden;
 }
 
 .three-main-news {
     padding-top: 15px;
-    background: #fff;
     margin-bottom: 100px;
+	background: #fff;
 }
 
 .title-three-main-news {
@@ -20,15 +20,15 @@ main {
 }
 
 .title-explore {
+	color: #d08a00;
     font-size: 2.2em;
-    color: #d08a00;
 }
 
 .column-main-news {
     float: left;
+	overflow: hidden;
     width: 33%;
     padding: 15px;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -42,8 +42,8 @@ main {
 }
 
 .main-news-horizontal-line {
-    border-top: 3px dotted black;
     width: 60%;
+	border-top: 3px dotted black;
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -64,43 +64,43 @@ main {
 
 .column-big-news-text {
     float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 40%;
+	width: 40%;
     height: 80%;
+	padding-top: 30px;
+	padding-right: 10px;
+    padding-left: 10px;
     margin-top: 70px;
-    margin-bottom: 70px;
-    padding-top: 30px;
+    margin-bottom: 70px; 
     background-color: #60b3e5;
 }
 
 .column-big-news-image {
-    filter: saturate(2);
+	float: left;
     overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    float: left;
-    width: 60%;
+	width: 60%;
     height: 700px;
+	background-size: cover; 
+    background-repeat: no-repeat;
+	filter: saturate(2);
 }
 
 .big-news-main-text {
+	margin-top: 20px;
+    margin-bottom: 20px;
+	color: #fff;
     font-size: 1.5em;
     font-weight: bold;
-    color: #fff;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .column-big-news-text a {
+	color: #fff;
     font-weight: bold;
-    color: #fff;
     text-decoration: none;
 }
 
 .kaliakra-subtitle {
+	color: #fff;
     font-style: italic;
-    color: #fff;
 }
 
 
@@ -121,29 +121,29 @@ main {
 }
 
 .image-top-left {
+	position: relative;
+    z-index: 0;
     overflow: hidden;
     width: 100%;
     height: 700px;
-    position: relative;
-    z-index: 0;
 }
 
 .text-container {
-    text-align: left;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 1.4em;
-    width: 40%;
-    position: absolute;
+	position: absolute;
     z-index: 1;
-    background-color: #fff;
+	width: 40%;
+    padding-right: 10px;
+    padding-left: 10px;
+	background-color: #fff;
+    font-size: 1.4em;
+	text-align: left;
 }
 
 .text-top-left {
-    text-align: left;
     top: -125px;
     left: 50px;
     padding-bottom: 10px;
+	text-align: left;
 }
 
 .text-angle-link {
@@ -157,11 +157,11 @@ main {
 }
 
 .image-top-right {
+	position: relative;
+    z-index: 0;
     overflow: hidden;
     width: 100%;
     height: 700px;
-    position: relative;
-    z-index: 0;
 }
 
 .large-image {
@@ -175,39 +175,39 @@ main {
 }
 
 .text-top-right {
-    padding-bottom: 10px;
     top: -125px;
     right: 50px;
+	padding-bottom: 10px;
     background-color: #fff;
 }
 
 .image-bottom-left {
+	position: relative;
+    z-index: 0;
     overflow: hidden;
     width: 100%;
     height: 700px;
-    position: relative;
-    z-index: 0;
 }
 
 .text-bottom-left {
-    padding-top: 10px;
     top: 580px;
     left: 50px;
+	padding-top: 10px;
     background-color: #fff;
 }
 
 .image-bottom-right {
+	position: relative;
+    z-index: 0;
     overflow: hidden;
     width: 100%;
     height: 700px;
-    position: relative;
-    z-index: 0;
 }
 
 .text-bottom-right {
-    padding-top: 10px;
     top: 580px;
     right: 50px;
+	padding-top: 10px;
     background-color: #fff;
 }
 
@@ -301,11 +301,11 @@ main {
     .text-top-right,
     .text-bottom-left,
     .text-bottom-right {
-        width: 100%;
         position: relative;
         z-index: 0;
         top: 0px;
         left: 0px;
+		width: 100%;
     }
     .column-big-news-image {
         display: none;
@@ -314,10 +314,10 @@ main {
     .image-top-right,
     .image-bottom-left,
     .image-bottom-right {
+		position: relative;
+        z-index: 0;
         width: auto;
         height: auto;
-        position: relative;
-        z-index: 0;
     }
     .large-image {
         height: 350px;

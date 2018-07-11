@@ -1,7 +1,7 @@
 main {
+	overflow: hidden;
     width: 80%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .section-box {
@@ -30,19 +30,19 @@ main {
 }
 
 .title-resorts-text {
+	margin-top: 20px;
+    margin-bottom: 20px;
+	color: #f46465;
     font-size: 1.4em;
     font-weight: bold;
     font-style: italic;
-    color: #f46465;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .resorts-text-container {
     width: 36%;
+	padding-right: 20px;
     padding-left: 20px;
-    padding-right: 20px;
 }
 
 .text-left {
@@ -93,9 +93,9 @@ main {
 
 @media screen and (max-width:1250px) {
     .resorts-text-container {
-        font-size: 0.9em;
-        padding-left: 0px;
+		padding-left: 0px;
         padding-right: 0px;
+        font-size: 0.9em;
     }
 }
 
@@ -105,14 +105,14 @@ main {
         margin-top: 50px;
     }
     .resorts-image-container {
+		overflow: hidden;
         width: 100%;
         height: auto;
-        overflow: hidden;
     }
     .resorts-text-container {
-        font-size: 1em;
         width: 100%;
         padding-left: 0px;
         padding-right: 0px;
+		font-size: 1em;
     }
 }

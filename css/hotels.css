@@ -1,43 +1,43 @@
 main {
+	overflow: hidden;
     width: 80%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .three-main-news {
-    background: #fff;
-    margin-bottom: 100px;
+	margin-bottom: 100px;
+    background: #fff; 
 }
 
 .row {
-  height: 320px;
+	height: 320px;
 }
 
 
 .main-news-container p {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .title-three-main-news {
+	margin-top: 50px;
+	margin-bottom: 30px;
     margin-left: 20px;
-    margin-top: 50px;
-    margin-bottom: 30px;
 }
 
 .title-explore {
+	color: #d08a00;
     font-size: 2.2em;
-    color: #d08a00;
 }
 
 .column-main-news {
     float: left;
+	overflow: visible;
     width: 30%;
+	height: 700px;
     padding: 15px;
-    overflow: visible;
-    text-align: center;
-    margin-bottom: 20px;
-    height: 700px;
+    margin-bottom: 20px;  
     font-size: 1em;
+	text-align: center;
 }
 
 .main-news-image {
@@ -50,8 +50,8 @@ main {
 }
 
 .main-news-horizontal-line {
-    border-top: 3px dotted black;
     width: 60%;
+	border-top: 3px dotted black;
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -59,22 +59,24 @@ main {
 
 .hotel-btn, 
 .calculate-price {
-  background-color: #d08a00;
-  font-weight: bold;
-  color: #fff;
-  padding: 5px 10px 5px 10px;
-  letter-spacing: 2px;
+	padding: 5px 10px 5px 10px;
+	background-color: #d08a00;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
 
 .double-room {
-  font-weight: bold;
-  text-align: center;
-  font-size: 1.2em;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+
 }
 
 .check-in {
-  font-weight: bold;
-  font-size: 1.2em;
+	font-size: 1.2em;
+	font-weight: bold;
+  
 }
 
 @media screen and (max-width:3000px) {
@@ -128,31 +130,31 @@ main {
 @media screen and (max-width:1200px) {
     .column-main-news {
         display: inline;
+		overflow: visible;
         width: 100%;
-        overflow: visible;
         height: 450px;
+		padding-top: 10px;
+		padding-right: 0px;
+		padding-bottom: 10px;
+		padding-left: 0px;
+		margin-bottom: 0px;
+		font-size: 1em;
         text-align: center;
-        font-size: 1em;
-        padding-right: 0px;
-        padding-left: 0px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        margin-bottom: 0px;
     }
     .main-news-image {
+		float: left;
         width: 50%;
-        float: left;
         height: auto;
         margin-right: 10px;
     }
     .main-news-horizontal-line {
-        border-top: 3px dotted black;
+		float: right;
         width: 48%;
-        float: right;
+		margin-top: 10px;
         margin-left: 0px;
+		margin-bottom: 10px;
         margin-right: 0px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+		border-top: 3px dotted black;
     }
 }
 
@@ -175,11 +177,11 @@ main {
         margin-bottom: 20px;
     }
     .main-news-horizontal-line {
-        border-top: 3px dotted black;
-        width: 60%;
-        float: none;
+		float: none;
+        width: 60%; 
         margin: 0 auto;
         margin-top: 10px;
         margin-bottom: 10px;
+		border-top: 3px dotted black;
     }
 }

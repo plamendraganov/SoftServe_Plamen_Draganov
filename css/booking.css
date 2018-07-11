@@ -1,17 +1,17 @@
 .modal,
 .modal-location {
 	position: fixed;
-    margin: 0px auto;
     top: 80px;
     left: 27%;
     display: none;
     width: 40%;
     height: auto;
+	padding: 20px;
     border: 1px solid #777777;
     border-radius: 5px;
+	margin: 0px auto;
     background-color: #60b3e5;
     color: #fff;
-    padding: 20px;
 }
 
 .get-location {
@@ -23,30 +23,30 @@
 }
 
 .close-btn {
+	float: right;
 	min-width: 30%;
-    margin-top: 20px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
     padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: #f46465;
+	margin-top: 20px;
+	background-color: #f46465;
     color: #fff;
-    float: right;
     font-size: 1.2em;
     font-weight: bold;
 	letter-spacing: 2px;
 }
 
 .close-location {
+	float: right;
     min-width: 30%;
-    margin-top: 20px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
     padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+	margin-top: 20px;
     background-color: #f46465;
     color: #fff;
-    float: right;
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -59,32 +59,32 @@
 
 .modal-header {
     padding: 2px 16px;
+	margin-bottom: 20px;
     background-color: #5cb85c;
     color: white;
-    text-align: center;
     font-size: 1.3em;
-    margin-bottom: 20px;
+	text-align: center;
 }
 
 .modal-body {
+	overflow: auto;
     height: 200px;
-    overflow: auto;
 }
 
 .modal-footer {
     padding: 2px 16px;
+	margin-top: 20px;
     background-color: #5cb85c;
     color: white;
     text-align: center;
     font-size: 1.3em;
-    margin-top: 20px;
 }
 
 .priceBGN {
     display: none;
     color: #d40606;
+	font-size: 1.2em;
     font-weight: bold;
-    font-size: 1.2em;
 }
 
 .map {
@@ -94,10 +94,10 @@
 
 
 @media screen and (max-width:490px) {
-  .modal,
+	.modal,
 	.modal-location {
-    left: 0%;
-    width: 80%;
+		left: 0%;
+		width: 80%;
   }
 
 	.map {
